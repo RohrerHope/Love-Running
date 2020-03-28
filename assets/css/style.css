@@ -21,7 +21,6 @@ h2 {
 #sticky {
   position: sticky;
   top: 0;
-  background-color: white;
 }
 
 #logo {
@@ -38,6 +37,8 @@ h2 {
 
 #logo, #menu {
   line-height: 75px;
+  position: sticky;
+  top: 0;
 }
 
 #menu li {
@@ -72,6 +73,7 @@ h2 {
   height: 600px;
   width: 100%;
   overflow: hidden;
+  position: relative;
 }
 
 @keyframes hero-zoom {
@@ -81,6 +83,30 @@ h2 {
   to{
     transform: scale(1.1); 
   }
+}
+
+#cover-text, #cover-text h2{
+  color: #ffffff;
+}
+
+#cover-text {
+  font-size: 130%;
+  font-family: Oswald;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+
+  width: 300px;
+  height: 200px;
+
+  padding-left: 10px;
+  padding-top: 40px;
+
+  background-color: rgba(241, 109, 107, .7);
+
+  bottom: 30px;
+  right: 150px;
+
+  position: absolute; 
 }
 
 #club-ethos {
@@ -162,6 +188,7 @@ hr {
   background-size: cover;
   width: 100%;
   overflow: hidden;
+  margin: 0 auto;
 }
 
 #times div {
