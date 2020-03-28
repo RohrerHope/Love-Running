@@ -32,7 +32,6 @@ h2 {
 
 #logo, #menu {
   line-height: 75px;
-  background-color: #ffffff;
 }
 
 #menu li {
@@ -53,11 +52,11 @@ h2 {
   border-bottom: 1px solid #777777;
 }
 
-#sticky {
+header {
   position: sticky;
   top: 0;
   z-index: 1000;
-  opacity: .9;
+  background-color: #ffffff;
 }
 
 #hero-image {
@@ -205,4 +204,23 @@ hr {
 
 #times h2 {
   color: #fafafa;
+}
+
+footer {
+  height: 150px;
+}
+
+.social-networks {
+  text-align: center;
+}
+
+.social-networks li {
+  display: inline;
+}
+
+.social-networks i {
+  font-size: 160%;
+  margin: 1%;
+  padding: 5%;
+  color: #777777;
 }
