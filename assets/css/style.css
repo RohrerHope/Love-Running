@@ -62,6 +62,25 @@ h2 {
   height: 600px;
   width: 100%;
   background: url("http://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/main-image.png") no-repeat center center;
+
+  animation-name: hero-zoom;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+}
+
+#hero-outer {
+  height: 600px;
+  width: 100%;
+  overflow: hidden;
+}
+
+@keyframes hero-zoom {
+  from{
+    transform: scale(1);
+  }
+  to{
+    transform: scale(1.1); 
+  }
 }
 
 #club-ethos {
@@ -136,4 +155,26 @@ hr {
   background: url("http://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/video-mask.png") no-repeat center center;
   height: 100%;
   border-radius: 50%;
+}
+
+#times {
+  background: url("http://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/dublin-city.png") no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  overflow: hidden;
+}
+
+#times div {
+  color: #fafafa;
+  background-color: rgba(0, 0, 0, .6);
+  width: 19%;
+  height: 300px;
+  float: left;
+  padding: 30px 0 0 10px;
+  text-align: center;
+  margin: 2px;
+}
+
+#times h2 {
+  color: #fafafa;
 }
