@@ -54,9 +54,6 @@ h2 {
 }
 
 header {
-  position: sticky;
-  top: 0;
-  z-index: 1000;
   background-color: #ffffff;
 }
 
@@ -275,5 +272,35 @@ footer {
     margin-left: 30px;
     margin-bottom: 20px;
     line-height: 25px;
+    font-size: 100%;
+  }
+
+  #menu li {
+    margin-right: 15px;
+  }
+
+  #cover-text {
+    left: 0;
+  }
+
+  #club-ethos {
+    width: 90%;
+    height: 1200px;
+    margin: 0 auto;
+  }
+
+  .left-about-heading, .right-about-heading {
+    width: inherit;
+  }
+
+  .left-about-heading h2, .right-about-heading h2 {
+    width: 100%;
+    text-align: center;
+    padding: 0 20px;
+  }
+
+  .left-about-heading p, .right-about-heading p {
+    /* width: 100%; */
+    text-align: center;
   }
 }
